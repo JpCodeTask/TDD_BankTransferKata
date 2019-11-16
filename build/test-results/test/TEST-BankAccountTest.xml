@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BankAccountTest" tests="12" skipped="0" failures="0" errors="0" timestamp="2019-11-15T09:54:43" hostname="jakub-Inspiron-5379" time="0.03">
+  <properties/>
+  <testcase name="when pay into money then list transaction contains PayIntoTransaction()" classname="BankAccountTest" time="0.015"/>
+  <testcase name="when deposit money amount negative then throw IllegalArgumentException()" classname="BankAccountTest" time="0.002"/>
+  <testcase name="when pay into money and withdraw then list of transactions is 2 long()" classname="BankAccountTest" time="0.001"/>
+  <testcase name="when withdraw then list transaction history contains WithdrawTransaction()" classname="BankAccountTest" time="0.001"/>
+  <testcase name="when new account then transaction history is empty()" classname="BankAccountTest" time="0.001"/>
+  <testcase name="when withdraw more money then it on account throw NotEnoughMoneyException()" classname="BankAccountTest" time="0.001"/>
+  <testcase name="when withdraw money amount negative then throw IllegalArgumentException()" classname="BankAccountTest" time="0.001"/>
+  <testcase name="when pay into money then list of transactions is not empty()" classname="BankAccountTest" time="0.0"/>
+  <testcase name="when withdraw then accountBalance change()" classname="BankAccountTest" time="0.0"/>
+  <testcase name="when new account with negative balance create then throw IllegalArgumentException()" classname="BankAccountTest" time="0.001"/>
+  <testcase name="when deposit then accountBalance change()" classname="BankAccountTest" time="0.001"/>
+  <testcase name="when new account then default balance is 0()" classname="BankAccountTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

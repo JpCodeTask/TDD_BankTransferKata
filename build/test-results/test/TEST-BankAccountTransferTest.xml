@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="BankAccountTransferTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-11-15T09:54:43" hostname="jakub-Inspiron-5379" time="0.006">
+  <properties/>
+  <testcase name="when transfer money then transfer transactions are in history()" classname="BankAccountTransferTest" time="0.001"/>
+  <testcase name="when query by operation type then return history of transactin of this type()" classname="BankAccountTransferTest" time="0.0"/>
+  <testcase name="when amount money to transfer is larger then balance then throw NotEnoughMoneyException()" classname="BankAccountTransferTest" time="0.001"/>
+  <testcase name="when transfer money between account then balances change()" classname="BankAccountTransferTest" time="0.0"/>
+  <testcase name="when money amount to transfer is negative then throw IllegalArgumentException()" classname="BankAccountTransferTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
